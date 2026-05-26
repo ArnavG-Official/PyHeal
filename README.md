@@ -19,12 +19,12 @@ Self-healing Python execution with automatic error recovery and safe execution b
 
 ---
 
-## ⚙️ Modes
+## Function Blocks
 
-### skip()
+### with skip():
 Suppresses runtime errors inside the block.
 
-### strict()
+### with strict():
 Normal Python behavior (no suppression).
 
 ---
@@ -37,7 +37,3 @@ PyHeal wraps execution blocks and controls error behavior:
 - continue execution safely
 
 ---
-
-## ⚠️ Warning
-
-Skipping errors may hide bugs. Use carefully.
