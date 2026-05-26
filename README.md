@@ -1,6 +1,6 @@
 # 🧠 PyHeal
 
-A self-healing execution library for Python with automatic error recovery, intelligent debugging, and runtime repair.
+Self-healing Python execution with automatic error recovery and safe execution blocks.
 
 ---
 
