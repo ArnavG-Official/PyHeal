@@ -13,17 +13,10 @@ Self-healing Python execution with automatic error recovery and safe execution b
 
 ---
 
-## 🚀 Usage
+## Installation
 
 ```python
-import pyheal
-
-with pyheal.skip():
-    print("start")
-    1 / 0
-    print("still runs")
-
-print("program continues")
+pip install pyheal
 ```
 
 ---
