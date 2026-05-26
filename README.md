@@ -15,9 +15,7 @@ Self-healing Python execution with automatic error recovery and safe execution b
 
 ## Installation
 
-```python
-pip install pyheal
-```
+> pip install pyheal
 
 ---
 
