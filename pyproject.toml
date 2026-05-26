@@ -1,0 +1,24 @@
+[project]
+name = "PyHeal"
+version = "1.0"
+description = "Self-healing Python execution with automatic error recovery and safe execution blocks."
+authors = [
+  { name = "ArnavG-Official", email = "arnavg2026@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]
+
+[project.urls]
+Homepage = "hhttps://github.com/ArnavG-Official/PyHeal"
