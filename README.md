@@ -1,39 +1,49 @@
-# PyHeal 🩹
+# 🧠 PyHeal
 
-Self-healing Python execution with automatic error recovery and safe execution blocks.
+A self-healing execution library for Python with automatic error recovery, intelligent debugging, and runtime repair.
 
 ---
 
 ## ⚡ Features
 
-- Safe execution blocks that prevent crashes
-- Skip mode (ignore errors)
-- Strict mode (normal Python behavior)
-- Lightweight MVP core
+PyHeal wraps Python execution in a recovery layer:
+- Execute code
+- Detect errors
+- Analyze traceback
+- Apply fixes (if available)
+- Retry execution
+- Recover or restart
 
 ---
 
-## Installation
+## 📦 Installation
 
-> pip install pyheal
+```bash
+pip install pyheal
 
 ---
 
-## Function Blocks
-
-### with skip():
-Suppresses runtime errors inside the block.
-
-### with strict():
+Set global behavior for PyHeal.
+Suppress all errors inside a block.
 Normal Python behavior (no suppression).
-
----
-
-## 🧠 Concept
-
-PyHeal wraps execution blocks and controls error behavior:
-- catch exceptions
-- optionally suppress them
-- continue execution safely
+Retries failed execution blocks automatically.
+Catches exceptions
+Retries execution
+Applies future patch hooks (if enabled)
+Analyzes errors and suggests fixes.
+Decorator that prevents crashes in functions.
+Catches exceptions
+Returns fallback value instead of crashing
+Registers automatic fix rules for known errors.
+Stores fix rules
+Used by future healing system
+Automatically restarts a crashed Python script.
+Runs script
+Detects crash
+Restarts automatically after delay
+Self-healing execution runtime context.
+Wraps execution lifecycle
+Handles runtime crashes
+Attempts recovery instead of full exit
 
 ---
