@@ -1,10 +1,10 @@
-# 🧠 PyHeal
+# PyHeal
 
 Self-healing Python execution with automatic error recovery and safe execution blocks.
 
 ---
 
-## ⚡ Features
+## Features
 
 PyHeal wraps Python execution in a recovery layer:
 - Execute code
@@ -16,7 +16,7 @@ PyHeal wraps Python execution in a recovery layer:
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 pip install pyheal
