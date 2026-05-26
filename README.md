@@ -20,6 +20,7 @@ PyHeal wraps Python execution in a recovery layer:
 
 ```bash
 pip install pyheal
+```
 
 ---
 
