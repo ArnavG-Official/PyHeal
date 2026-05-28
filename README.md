@@ -19,7 +19,7 @@ PyHeal wraps Python execution in a recovery layer:
 ## Installation
 
 ```bash
-pip install pyheal
+pip install pyheal=1.0
 ```
 
 ---
